@@ -1,0 +1,24 @@
+/* Estilos para os botões */
+button {
+    background-color: #008CBA; /* Cor de fundo azul */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove borda */
+    cursor: pointer; /* Cursor de mão */
+    margin: 10px; /* Espaço entre os botões */
+}
+
+/* Estilos para a lista */
+ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0; /* Remove o preenchimento */
+}
+
+/* Estilos para os itens da lista */
+li {
+    background-color: #f0f0f0; /* Cor de fundo claro */
+    margin: 5px 0; /* Espaço entre os itens */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+}
+
