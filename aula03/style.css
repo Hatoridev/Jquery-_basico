@@ -1,0 +1,22 @@
+/* Estilos para a caixa animada */
+#caixa {
+    width: 200px; /* Largura da caixa */
+    height: 200px; /* Altura da caixa */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto (branco) */
+    text-align: center; /* Alinha o texto ao centro */
+    line-height: 200px; /* Alinha o texto verticalmente */
+    margin: 20px; /* Margem ao redor da caixa */
+    display: none; /* A caixa é escondida inicialmente */
+}
+
+/* Estilos para os botões */
+button {
+    background-color: #008CBA; /* Cor de fundo azul */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove borda */
+    cursor: pointer; /* Cursor em forma de mão */
+    margin: 10px; /* Margem entre os botões */
+}
+
