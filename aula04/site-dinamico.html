@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Dinâmico com jQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <ul id="menu"> <!-- Menu de navegação -->
+        <li data-target="home">Home</li> <!-- Item de menu para a página Home -->
+        <li data-target="gallery">Galeria</li> <!-- Item de menu para a Galeria -->
+        <li data-target="comments">Comentários</li> <!-- Item de menu para Comentários -->
+    </ul>
+    <div id="home" class="section">Seção Home</div> <!-- Seção para a Home -->
+    <div id="gallery" class="section">Galeria de Imagens</div> <!-- Seção para a Galeria -->
+    <div id="comments" class="section">Área de Comentários</div> <!-- Seção para Comentários -->
+    
+    <form id="commentForm"> <!-- Formulário para enviar comentários -->
+        <input type="text" id="commentInput" placeholder="Digite um comentário"> <!-- Campo de texto para comentário -->
+        <button type="submit">Enviar</button> <!-- Botão de envio -->
+    </form>
+
+    <div id="commentsList"></div> <!-- Lista de comentários enviados -->
+    <script src="script.js"></script> <!-- Arquivo JavaScript -->
+</body>
+</html>
+

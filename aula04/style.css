@@ -1,0 +1,46 @@
+/* Estilos para o menu de navegação */
+#menu {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento */
+    margin: 0; /* Remove a margem */
+    display: flex; /* Exibe os itens do menu em linha (horizontal) */
+}
+
+#menu li {
+    margin-right: 20px; /* Espaço entre os itens do menu */
+    cursor: pointer; /* Cursor de mão ao passar sobre os itens */
+}
+
+/* Estilos para as seções */
+.section {
+    display: none; /* Inicialmente as seções estão escondidas */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Margem acima e abaixo das seções */
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilos para os formulários */
+form {
+    margin-top: 20px; /* Espaço acima do formulário */
+}
+
+/* Estilos para os campos de entrada */
+input {
+    padding: 10px; /* Espaçamento interno */
+    width: 80%; /* Largura do campo de entrada */
+    margin-bottom: 10px; /* Margem abaixo do campo */
+    border: 1px solid #ccc; /* Borda suave */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilos para os botões */
+button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto (branco) */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Cursor em forma de mão */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
