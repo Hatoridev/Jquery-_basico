@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define a codificação de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Define a responsividade da página, garantindo que ela se ajuste em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Avançado com jQuery</title>
+    <!-- Link para o arquivo CSS que contém os estilos da página -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Inclui o jQuery diretamente do CDN do jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Menu de navegação -->
+            <ul id="menu">
+                <li data-target="home">Home</li>
+                <li data-target="quemSomos">Quem Somos</li>
+                <li data-target="servicos">Serviços</li>
+                <li data-target="contato">Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Home, exibida quando o usuário clicar na opção Home no menu -->
+        <div id="home" class="section">
+            <h1>Bem-vindo ao nosso site!</h1>
+            <p>Este é um site fictício para demonstrar como podemos usar jQuery para criar páginas dinâmicas.</p>
+        </div>
+
+        <!-- Seção Quem Somos, exibida quando o usuário clicar na opção "Quem Somos" no menu -->
+        <div id="quemSomos" class="section">
+            <h1>Quem Somos</h1>
+            <p>Somos uma empresa fictícia dedicada a oferecer soluções inovadoras no mundo digital. Nossa missão é proporcionar serviços de alta qualidade aos nossos clientes, sempre com foco em resultados.</p>
+        </div>
+
+        <!-- Seção Serviços, exibida quando o usuário clicar na opção "Serviços" no menu -->
+        <div id="servicos" class="section">
+            <h1>Serviços</h1>
+            <ul>
+                <li>Consultoria Digital</li>
+                <li>Desenvolvimento Web</li>
+                <li>Marketing Digital</li>
+                <li>Gestão de Projetos</li>
+            </ul>
+        </div>
+
+        <!-- Seção de Contato, onde o usuário pode enviar suas informações -->
+        <div id="contato" class="section">
+            <h1>Contato</h1>
+            <p>Entre em contato conosco para mais informações sobre nossos serviços:</p>
+            <!-- Formulário de contato -->
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Seu nome" required>
+                <input type="email" id="email" placeholder="Seu e-mail" required>
+                <textarea id="message" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="contactResult"></div> <!-- Exibe o resultado do envio do formulário -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Empresa Fictícia. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript que contém a lógica do jQuery -->
+    <script src="script.js"></script>
+</body>
+</html>
+
