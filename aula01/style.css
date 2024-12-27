@@ -1,0 +1,15 @@
+/* Estilos para o botão */
+button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto (branco) */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Exibe um cursor de mão ao passar o mouse */
+}
+
+/* Estilos para o parágrafo */
+p {
+    font-size: 18px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto (cinza escuro) */
+}
+
