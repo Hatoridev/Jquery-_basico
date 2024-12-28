@@ -1,6 +1,6 @@
 # jQuery_basic
 
-Repository with small examples introducing the JavaScript library jQuery at a basic level.
+Repository with small examples introducing the use of the jQuery library, part of the JavaScript programming language for web development, at a basic level.
 
 ## How to Run  
 
