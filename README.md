@@ -313,5 +313,5 @@ Repository with small examples introducing the use of the jQuery library, part o
 
 ### **Library**  
 <div align="left">  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="60" alt="jQuery logo" />  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" height="60" alt="jQuery logo" />  
 </div>
