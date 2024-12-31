@@ -68,14 +68,19 @@ Repository with small examples introducing the use of the jQuery library, part o
 2. **Navigate to the directory where your PHP files are**:  
    ```bash  
    cd aula05  # or aula06, aula07, etc.  
-   ```  
+   ```
 
-3. **Start the PHP built-in server**:  
+3. **Create the database (from lesson 05):**
+  ```bash 
+   sqlite3 nome_do_banco.db < create_database.sql 
+ ```
+
+5. **Start the PHP built-in server**:  
    ```bash  
    php -S localhost:8000  
    ```  
 
-4. **If port 8000 is already in use**:  
+6. **If port 8000 is already in use**:  
    - Identify the process using the port:  
      ```bash  
      lsof -i :8000  
@@ -95,7 +100,7 @@ Repository with small examples introducing the use of the jQuery library, part o
      ```  
      This command will terminate all running PHP processes, including the one serving your files.
 
-5. **Open the page in your browser**:  
+7. **Open the page in your browser**:  
    - **For specific files** (e.g., `file.php`):  
      ```
      http://localhost:8000/file.php
@@ -178,9 +183,14 @@ Repository with small examples introducing the use of the jQuery library, part o
    - **As a last resort**, stop all PHP processes:  
      ```bash  
      pkill php  
-     ```  
-
-9. **Open the page in your browser**:  
+     ```
+     
+9. **Create the database (from lesson 05):**  
+   ```bash  
+   sqlite3.exe your_database.db < create_database.sql  
+   ```
+   
+10. **Open the page in your browser**:  
    - **For specific files** (e.g., `file.php`):  
      ```
      http://localhost:8000/file.php
@@ -266,14 +276,17 @@ Repository with small examples introducing the use of the jQuery library, part o
    ```bash  
    cd aula05  # or aula06, aula07, etc.  
    ```  
-
-3. **Start the PHP built-in server**:  
+3. **Create the database (from lesson 05):**  
+   ```bash  
+   sqlite3 your_database.db < create_database.sql
+   ```
+4. **Start the PHP built-in server**:  
    To run PHP files, use the built-in PHP server:  
    ```bash  
    php -S localhost:8000  
    ```  
 
-4. **If port 8000 is already in use**:  
+5. **If port 8000 is already in use**:  
    - Identify the process using the port:  
      ```bash  
      lsof -i :8000  
